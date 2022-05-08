@@ -1,0 +1,54 @@
+*{
+    border:0;
+    padding:0;
+    margin:0;
+}
+
+canvas{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    border: 1px solid black;
+}
+
+#controale{
+    position: static;
+    top:20px;
+    left:5px;
+    padding:1px;
+    border: 3px solid black;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px red;
+
+
+}
+
+#salvari{
+    position: static;
+    top:47px;
+    left:5px;
+    padding:1px;
+    border: 3px solid black;
+    background-color: yellow;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px yellow;
+}
+
+#butoane{
+    position: static;
+    top:47px;
+    left:5px;
+    padding:1px;
+    border: 3px solid black;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px blue;
+}
+
+button{
+    padding: 7px 14px;
+    margin: 5px;
+    background-color: gray;
+    border-radius: 3px;
+}

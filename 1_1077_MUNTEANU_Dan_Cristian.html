@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WebTunings</title>
+    <link href="1_1077_MUNTEANU_Dan_Cristian.css" rel="stylesheet">
+    <script src="1_1077_MUNTEANU_Dan_Cristian.js"></script>
+</head>
+
+<body>
+    
+<canvas id="canvas" width="1000" height="600"></canvas>
+
+
+
+<div id="controale">
+    <p>
+        <label>Grosime linie: <input id="lineWidth" type="range" step="1" min="1" max="10" value="4"></label>
+        <label>Culoare continut: <input id="fillColor" type="color" value="#0A1172"></label>
+        <label>Culoare background: <input id="backgroundColor" type="color" value="#FFFFFF"></label>
+        <label>Culoare contur: <input id="strokeColor" type="color"></label>
+        <label>Umplere: <input id="fillBox" type="checkbox" checked="checked"></label></p>
+    
+</div>
+
+
+<div id="salvari">
+    <p><input id="saveCanvasPng" type="button", value="Save Canvas Png"></p>
+    <p></p><input id="saveCanvasJpg" type="button" value="Save Canvas Jpg"></p>
+</div>
+
+<div id="butoane">
+<button id="b1">Patrat</button>
+<button id="b2">Circle</button>
+<button id="b3">DrawLine</button>
+<button id="b4">Pentagon</button>
+</div>
+
+<p><input id="clearCanvas" type="button" value="Clear Canvas"></p>
+
+</body>
+</html>
